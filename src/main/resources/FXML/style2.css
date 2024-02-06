@@ -1,0 +1,41 @@
+.root {
+    -fx-background-image: url('../imagenes/fondoDelBuscador.jpg');
+    -fx-background-size: cover;
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btnAtras{
+    -fx-background-image: url('../imagenes/botonAtras.png');
+    -fx-background-size:contain;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center; /* Centra la imagen dentro del botón */
+    -fx-background-color: transparent;
+}
+
+.contenedor {
+    -fx-background-color: rgba(255, 255, 255, 0.35);
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+.buscador {
+    -fx-background-color: rgba(255, 255, 255, 0.65);
+
+    -fx-prompt-text-fill: rgba(0, 0, 0);
+}
+.misCiudades{
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold
+}
+.botones{
+    -fx-background-radius: 10px; /* Ajusta el radio según tus preferencias */
+    -fx-border-radius: 10px;
+    -fx-background-color: orange;
+    -fx-font-weight: bold
+}
+.botonAjuste{
+    -fx-background-radius: 10px; /* Ajusta el radio según tus preferencias */
+    -fx-border-radius: 10px;
+    -fx-background-color: grey;
+    -fx-font-weight: bold
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="475.0" prefWidth="300.0" stylesheets="@style2.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Buscador">
+    <children>
+        <TextField fx:id="buscador" alignment="CENTER" layoutX="71.0" layoutY="48.0" promptText="Buscar Ciudad..." styleClass="buscador" />
+        <ListView fx:id="listaCiudades" layoutX="44.0" layoutY="142.0" prefHeight="287.0" prefWidth="213.0" styleClass="contenedor" />
+        <Button fx:id="btnAñadir" layoutX="125.0" layoutY="436.0" mnemonicParsing="false" onAction="#añadirCiudad" text="Añadir" />
+        <Label layoutX="47.0" layoutY="117.0" styleClass="misCiudades" text="Mis ciudades:" />
+        <Button fx:id="btnAtras" layoutY="15.0" mnemonicParsing="false" onAction="#irAtras" prefHeight="25.0" prefWidth="51.0" styleClass="btnAtras" />
+        <Button layoutX="232.0" layoutY="15.0" mnemonicParsing="false" styleClass="botones" text="Ajustes" />
+        <Button fx:id="btnBuscar" layoutX="119.0" layoutY="85.0" mnemonicParsing="false" onAction="#buscarCiudad" text="Buscar" /> </children>
+</AnchorPane>

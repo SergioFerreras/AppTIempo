@@ -1,0 +1,21 @@
+.root {
+    -fx-background-image: url('../imagenes/fondoo.jpg');
+    -fx-background-size: cover;
+}
+
+.tuBotonID {
+    -fx-background-color: linear-gradient(to right, #4269ff, #fa8029); /* Degradado de azul a naranja oscuro */
+    -fx-text-fill: white; /* Color del texto blanco */
+    -fx-font-weight: bold; /* Texto en negrita */
+    -fx-font-size: 15px;
+    -fx-effect: dropshadow(gaussian, #2c3e50, 10, 0.5, 2, 2);
+    -fx-font-family:'Arial'
+
+}
+.iconoApp{
+    -fx-effect: dropshadow(gaussian, #2c3e50, 10, 0.5, 2, 2);
+}
+
+.fondoTiempo{
+    -fx-background-color: #377ebd;
+}
