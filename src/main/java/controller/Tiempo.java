@@ -146,6 +146,7 @@ public class Tiempo {
         System.out.println(imagenFondo);
         String estiloFondo = "-fx-background-image: " + imagenFondo + ";";
         System.out.println(estiloFondo);
+        
 
 
         System.out.println(miContenedor.backgroundProperty());

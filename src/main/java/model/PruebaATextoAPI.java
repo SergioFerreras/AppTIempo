@@ -1,11 +1,9 @@
 package model;
 
 
-import javafx.scene.control.skin.SliderSkin;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import java.io.StringReader;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -47,7 +45,7 @@ public class PruebaATextoAPI {
     }
 
         public String infoAPI (String ciudad){
-            WeatherService weatherService = new WeatherService();
+            model.WeatherService weatherService = new model.WeatherService();
             String cityName = ciudad;
             String weatherData = weatherService.getWeatherData(cityName);
 

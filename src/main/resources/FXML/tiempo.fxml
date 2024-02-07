@@ -45,11 +45,11 @@
       <font>
          <Font name="Arial Bold" size="22.0" />
       </font></Label>
-      <Label fx:id="temperature" layoutX="106.0" layoutY="180.0" prefHeight="34.0" prefWidth="40.0" text="20ºC">
+      <Label fx:id="temperature" alignment="CENTER" contentDisplay="CENTER" layoutX="89.0" layoutY="201.0" prefHeight="48.0" prefWidth="65.0" text="20ºC" textAlignment="CENTER">
       <font>
          <Font name="Arial Bold" size="18.0" />
       </font></Label>
-       <ImageView fx:id="imagen" fitHeight="126.0" fitWidth="118.0" layoutX="62.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+       <ImageView fx:id="imagen" fitHeight="126.0" fitWidth="118.0" layoutX="63.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
            <image>
                <Image url="@../imagenes/LluviaSolDia.png" />
            </image>
